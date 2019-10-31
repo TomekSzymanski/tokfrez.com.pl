@@ -1,0 +1,8 @@
+.idea/
+**/*.iml
+
+tmp*/
+img/
+dist/
+node_modules/
+TODO.txt

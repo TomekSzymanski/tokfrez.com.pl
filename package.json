@@ -1,0 +1,32 @@
+{
+  "name": "tokfrez.com.pl",
+  "version": "1.0.0",
+  "description": "Install Node.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomekSzymanski/tokfrez.com.pl.git"
+  },
+  "author": "Tomasz Szymanski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomekSzymanski/tokfrez.com.pl/issues"
+  },
+  "homepage": "https://github.com/TomekSzymanski/tokfrez.com.pl#readme",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "font-awesome": "4.7.0"
+  },
+  "devDependencies": {
+    "grunt": "1.0.3",
+    "grunt-contrib-clean": "2.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-cssmin": "3.0.0",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-mkdir": "1.0.0",
+    "grunt-processhtml": "0.4.2"
+  }
+}
