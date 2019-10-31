@@ -6,11 +6,6 @@
     /*background-repeat: no-repeat;*/
 /*}*/
 
-.page-content {
-    padding-top: 60px;
-}
-@media (max-width: 979px) {
-    .page-content {
-        padding-top: 0px;
-    }
+.navbar-after-filler {
+    padding-top: 80px;
 }
