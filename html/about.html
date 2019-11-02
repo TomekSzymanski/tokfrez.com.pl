@@ -42,7 +42,14 @@
                 </div>
 
             </div>
-            <img class="card-img-bottom" src="../img/tokarki/DSC_0508.JPG">
+            <img class="card-img-bottom"
+                 srcset="../img/tokarki/DSC_0508_600.JPG 800w,
+                         ../img/tokarki/DSC_0508_800.JPG 1200w,
+                         ../img/tokarki/DSC_0508_1200.JPG 1400w"
+                 sizes="(max-width: 600px) 90vw,
+                        (max-width: 900px) 80vw,
+                        1200px"
+                 src="../img/tokarki/DSC_0508_1200.JPG">
         </div>
     </main>
     <!-- build:include fragments/load_js_deps.html-->
