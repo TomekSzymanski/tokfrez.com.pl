@@ -11,7 +11,12 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        clean: ['dist/**/*'],
+        clean: {
+            dist: {
+                dot: true,
+                src: ['dist/**/*']
+            }
+        },
 
         mkdir: {
             all: {
@@ -37,6 +42,7 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,
+                        dot: true,
                         cwd: 'page_admin',
                         src: ['**/*'],
                         dest: 'dist/'
