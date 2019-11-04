@@ -40,6 +40,12 @@ module.exports = function (grunt) {
                         cwd: 'page_admin',
                         src: ['**/*'],
                         dest: 'dist/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'favicons',
+                        src: ['**/*'],
+                        dest: 'dist/'
                     }
                 ]
             }
