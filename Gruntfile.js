@@ -68,13 +68,22 @@ module.exports = function (grunt) {
                 options: {
                     process: true
                 },
-                files: [{
+                files: [
+                    {
                     expand: true,
                     cwd: './html',
                     src: ['**/*.html', '!fragments/**/*.html'],
                     dest: 'dist/',
                     ext: '.html'
-                }]
+                    },
+                    {
+                        expand: true,
+                        cwd: './html',
+                        src: ['**/*.shtml'],
+                        dest: 'dist/',
+                        ext: '.shtml'
+                    }
+                ]
             }
         },
 

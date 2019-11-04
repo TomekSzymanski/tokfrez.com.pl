@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- build:include fragments/meta_common.html-->
+    <!-- /build -->
+    <meta name="keywords" content="toczenie,frezowanie,obróbka skrawaniem,wykonywane usługi,warsztat mechaniczny Ciężkowice">
+    <meta name="description" content="Bład navigacji">
+    <title>Tok&Frez: błąd</title>
+
+    <!-- build:css css/style.min.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../css/overrides.css">
+    <!-- /build -->
+</head>
+<body>
+    <!-- build:include fragments/navigation.html-->
+    <!-- /build -->
+    <main role="main" class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">Niepoprawny adres strony</h1>
+                <div class="lead text-center h2">
+                    <p>
+                    Podana strona nie istnieje
+                    </p>
+                    <p>
+                    <a class="btn btn-primary btn-lg" href="index.html" role="button">Powrót do strony głównej</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- build:include fragments/load_js_deps.html-->
+    <!-- /build -->
+</body>
+</html>
