@@ -1,3 +1,18 @@
 .navbar-after-filler {
     padding-top: 80px;
 }
+
+.jumbotron {
+    margin-bottom: 1rem;
+}
+
+.small-gutters {
+    margin-right: -7px;
+    margin-left: -7px;
+}
+
+.small-gutters > .col,
+.small-gutters > [class*="col-"] {
+    padding-right: 7px;
+    padding-left: 7px;
+}
